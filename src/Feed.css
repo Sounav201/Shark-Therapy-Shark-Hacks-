@@ -1,0 +1,13 @@
+.feed{
+    flex: 0.5;
+    padding: 30px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feed__body{
+    background-color: blue;
+
+}

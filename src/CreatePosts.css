@@ -1,0 +1,72 @@
+.makePosts{
+display: flex;
+margin-top: 30px;
+flex-direction: column;
+background-color: rgb(28, 156, 118);
+border-radius: 20px;
+box-shadow: 0px 5px 7px -7px rgba(0,0,0, 0.75);
+width: 100%;
+align-self: center;
+}
+
+.Post__top{
+    display: flex;
+    z-index: 0;      
+    background: #283c86;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #283c86,#45a247 );  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left,#283c86,  #45a247); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.Post__top>form{
+    flex:1;
+    display: flex;
+
+
+}
+
+.Post__top > form > input{
+    outline-width: 0;
+    flex: 0.9;
+    border: none;
+    margin: 0 10px;
+    padding: 5px 20px;
+    border-radius: 999px;
+    background-color: rgb(236, 229, 222);
+    color: black;
+    
+}
+
+.Post__top > form > input>::-webkit-input-placeholder{
+    font-size: 300;
+}
+
+.Post__top > form > button{
+    display: none;
+}
+.makePost__input{
+    flex: 1;
+    
+}
+
+.makePost__input:hover{
+    background-color: rgb(187, 182, 173);
+}
+
+@media(max-width:1200px){
+
+
+.Post__top > form > button{
+    display: inline;
+    background-color: rgb(6, 119, 134);
+}
+.Post__top > form > button:hover{
+    background-color: rgb(75, 235, 241);
+}
+
+}
+
+
+
+
