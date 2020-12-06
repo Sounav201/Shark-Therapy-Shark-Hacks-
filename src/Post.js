@@ -33,13 +33,13 @@ function Post({ image, userID, timestamp, message}) {
 
                <div className="post__topInfo">
                    <h3>{userID}</h3>
-                    <p>{timestamp}</p>
+                    <p className="timestamp">{timestamp}</p>
                </div>
 
             </div>
 
             <div className="post__bottom">
-                <p>{message}</p>
+                <p className="msg">{message}</p>
 
             </div>
             <div className="post__image">

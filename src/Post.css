@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&family=Oswald&display=swap');
+
+
 .post{
     width: 100%;
     border-radius: 15px;
@@ -27,11 +30,26 @@
     margin-top: 10px;
     margin-bottom: 15px;
     padding: 15px 25px;
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border: 3px solid #e69b10;
+    color: #edf3f1;
+    justify-content: space-evenly;
 
 }
+.msg{
+    font-family: 'Castoro', serif;
+}
+.timestamp{
+    font-family: 'Oswald', sans-serif;
+}
+
 
 .post__image >img{
     width: 100%;
+    height: 70%;
     border:3px solid white;
 }
 

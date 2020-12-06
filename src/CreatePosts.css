@@ -47,6 +47,7 @@ align-self: center;
 }
 .makePost__input{
     flex: 1;
+    height: 45px;
     
 }
 
