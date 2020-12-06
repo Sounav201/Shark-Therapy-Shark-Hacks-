@@ -18,7 +18,7 @@ function Header() {
         <p>Go ahead. We'll keep you anonymous</p>
         </div>
         <div className="header__right">
-          <button className="Game"><a href="#">Go to Game</a></button>  
+          <button className="Game"><a href="https://resisted-basalt-mortarboard.glitch.me">Go to Game</a></button>  
         </div>
         </div>
     )
